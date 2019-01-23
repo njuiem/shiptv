@@ -28,7 +28,7 @@ echo 正在删除旧文件
 rm -rf 4k-start*
 #下载开机运行脚本
 echo 正在下载新文件
-wget -q --no-check-certificate https://raw.githubusercontent.com/yunalan/Shanghai-Telecom-4k-iptv-with-merlin/master/4k-start
+wget -q --no-check-certificate https://raw.githubusercontent.com/njuiem/shiptv/master/4k-start
 #设置权限
 chmod -R 0755 4k-start
 #完成提示
@@ -48,7 +48,7 @@ echo 正在删除旧文件
 rm -rf dnsmasq.postconf
 #下载新配置文件
 echo 正在下载新文件
-wget -q --no-check-certificate https://raw.githubusercontent.com/yunalan/Shanghai-Telecom-4k-iptv-with-merlin/master/ss
+wget -q --no-check-certificate https://raw.githubusercontent.com/njuiem/shiptv/master/ss
 #重命名新配置文件
 mv ss dnsmasq.postconf
 #设置权限
